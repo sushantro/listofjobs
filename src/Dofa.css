@@ -263,10 +263,10 @@ font-weight: 400;
   min-width: 100%;
   height:280px;
 } */
-/* .TEXT{
-  padding-top: 195px;
-  font-size: 55px;
-} */
+.TEXT{
+  padding-top: 70px;
+  font-size: 35px;
+}
 .card{
   width:100%;
   height:73%;
@@ -321,6 +321,9 @@ font-weight: 400;
   width: 100%;
 } */
 
+.btn {
+  margin-right: 10px;
+}
 
 
 
