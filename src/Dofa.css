@@ -26,6 +26,21 @@ body{
     font-size: 1.5rem;
     
 }
+.nav-item {
+font-style: italic;
+font-weight: 400;
+
+
+}
+.active :hover{
+  background-color: blue;
+}
+.nav-link:hover {
+  background-color:blue; /*will change background-color of element on hover */
+  color:white; /*will change color of text within the element on hover */
+  }
+  
+
 /* @media (max-width:991px) {
   .navbar-brand{
   color: #3498db;
@@ -248,10 +263,10 @@ body{
   min-width: 100%;
   height:280px;
 } */
-.TEXT{
-  padding-top: 55px;
-  font-size: 35px;
-}
+/* .TEXT{
+  padding-top: 195px;
+  font-size: 55px;
+} */
 .card{
   width:100%;
   height:73%;
@@ -261,6 +276,8 @@ body{
 .ser{
   margin-top: 95px;
 }
+
+
 /* 
 //footer */
 
@@ -272,6 +289,43 @@ body{
   bottom: 0;
   width: 100%;
 }
+.list-unstyled{
+  margin-right: 95px;
+}
+.col{
+  margin-left: 50px;
+}
+
+/* // product slide */
+.carousel-inner img{
+  width: 750px;
+  height:295px;
+  margin-bottom: 19px;
+  margin-left: 290px;
+
+}
+/* //navbar reset code */
+.navbar{
+  background-color:white;
+}
+
+/* .btn-get-started {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+} */
+
+
+
+
+
+
 
 
 
