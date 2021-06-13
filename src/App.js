@@ -7,7 +7,7 @@ import {BrowserRouter,Switch,Route, Redirect} from "react-router-dom";
 import Navigation from './Navigation';
 // import Home from './Home';
 import FormDialog from "./Modal";
-import Login from "./Login"
+import Login1 from "./Login1"
 import Accordion from "./Accordion"
 import Prt from "./Prt"
 import  About1  from "./About1"
@@ -31,7 +31,7 @@ function App() {
      <Route exact path="/" component={Prt}/>
       <Route exact path="/About" component={About1}/>
       <Route exact  path="/card" component={Cards}/>
-      <Route exact  path="/login" component={Login}/>
+      <Route exact  path="/login1" component={Login1}/>
       <Route exact  path="/contact" component={Contact}/>
       <Route exact  path="/help" component={Accordion}/>
      
