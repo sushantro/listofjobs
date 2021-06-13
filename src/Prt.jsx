@@ -70,4 +70,4 @@ const Prt = () => {
     )
 }
 
-export default Prt
+export default Prt;
