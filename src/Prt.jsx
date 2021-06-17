@@ -16,7 +16,7 @@ const Prt = () => {
             <section id="header" className="d-flex align-items-center">
                 <div className="container-fluid nav_bg">
                     <div className="row">
-                        <div className="col-md-6 pt-5 pt-lg-10 order-2 order-lg-1 d-flex justify-content-center flex-column">
+                        <div className="col-md-6 pt-9 pt-lg-10 order-2 order-lg-1 d-flex justify-content-center flex-column">
                             <h1 className="text">
                                 Grow ur business with <strong className="brand-name">DHANDA PANI </strong>
 
@@ -70,4 +70,4 @@ const Prt = () => {
     )
 }
 
-export default Prt;
+export default Prt
