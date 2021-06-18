@@ -21,8 +21,8 @@ const Login = () => {
                                 <Form.Control type="password" placeholder="Password" />
                             </Form.Group>
 
-                             {/* <Button variant="primary btn-block" type="submit">Login</Button> */}
-                             <div class="col-md-12"> <input type="submit" class="btn btn-primary btn-md btn-block waves-effect text-center m-b-20" name="submit" value="LOGIN"/> </div>
+                             <Button variant="primary btn-block" type="submit">Login</Button>
+//                              <div class="col-md-12"> <input type="submit" class="btn btn-primary btn-md btn-block waves-effect text-center m-b-20" name="submit" value="LOGIN"/> </div>
                             {/* <h1 className="mt-2 mb-1 text-align center">OR</h1> */}
                             <div class="or-container">
                                 <div class="line-separator"></div>
