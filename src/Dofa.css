@@ -421,6 +421,20 @@ box-shadow: none;
 
 }
 
+/* service img */
+.card img{
+  height:200px;
+}
+
+.card-body {
+  height: 325px;
+}
+.faka{
+  margin-bottom: 15px;
+ 
+
+}
+
   
 
 
