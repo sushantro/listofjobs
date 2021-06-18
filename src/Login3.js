@@ -13,6 +13,7 @@ const Login = () => {
                         <img className="icon-img" src={loginIcon} alt="icon"/>
                         <Form>
                             <Form.Group controlId="formBasicEmail">
+                                {/* <h1>PLZ ENTER UR EMAIL HERE</h1> */}
                                 <Form.Control type="email" placeholder="Enter email" />
                             </Form.Group>
 
@@ -20,14 +21,28 @@ const Login = () => {
                                 <Form.Control type="password" placeholder="Password" />
                             </Form.Group>
 
-                            <Button variant="primary btn-block" type="submit">Login</Button>
-                            <h1>OR</h1>
-                            <Button variant="primary btn-block" type="submit">LOGIN WITH GOOGLE</Button>
+                             {/* <Button variant="primary btn-block" type="submit">Login</Button> */}
+                             <div class="col-md-12"> <input type="submit" class="btn btn-primary btn-md btn-block waves-effect text-center m-b-20" name="submit" value="LOGIN"/> </div>
+                            {/* <h1 className="mt-2 mb-1 text-align center">OR</h1> */}
+                            <div class="or-container">
+                                <div class="line-separator"></div>
+                                <div class="or-label">OR</div>
+                                <div class="line-separator"></div>
+                            </div>
+                            <a class="btn btn-lg btn-google btn-block text-uppercase btn-outline" href="#"><img src="https://img.icons8.com/color/16/000000/google-logo.png"/> Signup Using Google</a>
+                            {/* <Button variant="primary btn-block" type="submit">LOGIN WITH GOOGLE</Button>  */}
+                             {/* <button class="button button5 ">login</button>
+                             <button class="button button5 ">login with google</button> */}
 
                             {/* <div className="text-left mt-3">
                                 <a href="#"><small className="reset">Password Reset</small></a> II
                                 <a href="#"><small className="reset ml-2">Quick Recover</small></a>
+
                             </div> */}
+                            
+                             {/* <a class="btn btn-lg btn-google btn-block text-uppercase btn-outline" href="#"><img src="https://img.icons8.com/color/16/000000/google-logo.png"/> Signup Using Google</a>  */}
+                             
+                        
                         </Form>
                     </Col>
 
